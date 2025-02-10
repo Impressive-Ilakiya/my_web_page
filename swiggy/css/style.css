@@ -1,0 +1,184 @@
+.swiggy-logo-img>img {
+  width: 200px;
+}
+
+.swiggy-offer-img>img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.sec1-bg {
+  background-image: url(./image/swiggy-right-img.jpg);
+  height: 535px;
+  width: 100% !important;
+  background-size: cover;
+  right: 0em;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute !important;
+  max-width: 600px !important;
+}
+
+.login-btn:hover {
+  color: #fc8019 !important;
+}
+
+.btn-black {
+  background-color: black !important;
+  color: white !important;
+}
+
+.btn-swiggy {
+  background-color: #fc8019 !important;
+  color: white !important;
+}
+
+@media (max-width: 767px) {
+  .sec1-bg {
+    position: relative !important;
+  }
+}
+
+.box {
+  width: 100%;
+}
+
+.sec4 img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.section3 {
+  background-color: #2b1e16;
+}
+
+.footer-sec {
+  background-color: black;
+}
+
+.footer-logo>img {
+  height: 30px;
+  width: 20px;
+}
+
+.modal-custom {
+  background-color: #fc8019;
+}
+
+.foodchk {
+  font-size: 16px;
+}
+
+.head-design {
+  color: #fc8019;
+}
+
+.error_fname,
+.error_lname,
+.error_noemail,
+.invalid_email,
+.error_type,
+.error_mobtendigit,
+.error_mobcheck,
+.error_gender,
+.error_nopassword,
+.error_norepassword,
+.error_password,
+.error_passwordmatch,
+.error_address,
+.error_nationality,
+.error_foodmode,
+.error_loginemail,
+.error_loginpass,
+.error_loginemailempty,
+.error_loginpasswordempty,
+
+.error_hotelname,
+.error_hoteladdress,
+.error_hotelmobtendigit,
+.error_hotelmobcheck,
+.invalid_hotelemail,
+.error_nohotelemail,
+.error_hotelimage,
+
+.invalid_edithotelemail, .error_editnohotelemail, .error_edithotelmobcheck, .error_edithotelmobtendigit, .error_edithotelmobtendigit, .error_edithoteladdress, .error_edithotelname,
+
+.error_foodname,
+.error_fooddescription,
+.error_foodimage,
+.error_foodstatus,
+
+.error_editfoodname,
+.error_editfooddescription
+{
+  display: none;
+  color: red;
+}
+
+.error {
+  color: red;
+}
+
+.profile-btn {
+  border-radius: 50%;
+  border-color: #fc8019;
+}
+
+.profile_dropdown {
+  list-style-type: none;
+  display: none;
+  position: absolute !important;
+  width: 120px;
+  z-index: 9;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+img#profileclick {
+  position: relative;
+}
+
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.admin-header {
+  border: #fc8019;
+  /* border-color: #fc8019 !important; */
+  border-width: 2px !important;
+  border-radius: 5px !important;
+}
+
+.maincont {
+  overflow-x: none;
+}
+
+.bg-swiggy {
+  background-color: #fc8019 !important;
+}
+
+.food_details{
+  display: none;
+}
+.href_color{
+  color:#007bff;
+}
+.mini img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.preview img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
